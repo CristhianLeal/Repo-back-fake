@@ -1,5 +1,5 @@
 export const getprods = (req,res) => {
-  res.json ('Obtener prods desde controllers')
+  res.json ('Obtener prods desde controllers nuevo')
 }
 export const getprod = (req,res) => {
   res.json ('Obtener un prod desde controllers')

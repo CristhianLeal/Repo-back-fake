@@ -1,5 +1,7 @@
 export const getUsers = (req,res) => {
-  res.json ('Obtener Usuarios desde controllers')
+  res.status(404).json ({
+    message: "No hay usuarios"
+  })
 }
 export const getUser = (req,res) => {
   const {id} = req.params
