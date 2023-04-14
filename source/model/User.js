@@ -12,7 +12,6 @@ const UserSchema = new Schema ({
   },
   name:{
     type:String,
-    required:[true,"El nombre es obligatorio"]
   },
   password:{
     type:String,

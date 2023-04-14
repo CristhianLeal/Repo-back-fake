@@ -1,3 +1,5 @@
+import Product from '../model/products.js'
+
 export const getprods = (req,res) => {
   res.json ('Obtener prods desde controllers nuevo')
 }
